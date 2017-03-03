@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body, html, a{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	width: 100%;
+	margin: 0 auto;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: rgba(255, 255, 255, 1);
+	position: fixed;
+	top: 0;
+	width:100%;
+	z-index: 5;
+}
+
+li{
+	float: right;
+	padding: 26px 28px;
+}
+
+li a{
+	display: block;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 20px;
+}
+
+li a:hover{
+	color: #f24141;
+}
+
+.active {
+    color: #f24141;
+}
+
+.pratoPrincipal{
+	float: left;
+	background-image: url('../img/prato.jpg');
+	background-size: cover;
+	width: 42%;
+	height: 900px;
+	position: relative;
+	text-align: center;
+	margin-left: 7%;
+	margin-right: 1%;
+	margin-top: 100px;
+	margin-right: 0;
+}
+
+.tituloPrato{
+	text-align: center;
+}
+
+.tituloPrato h1{
+	font-size: 40px;
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+.botaoPrato{
+	margin: 250px auto;
+	width: 25%;
+	padding: 0;
+	border-style: solid;
+    border-width: 1px;
+	border-color: white;
+	font-size: 18px;
+	font-family: 'Crimson Text', serif;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.botaoPrato a{
+	padding: 10px 10px;
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+.botaoPrato a:hover{
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.sobremesa{
+	float:right;
+	margin-right: 7%;
+	background-image: url('../img/sobremesa.jpg');
+	background-size: cover;
+	width: 42%;
+	height: 900px;
+	position: relative;
+	text-align: center;
+	margin-left: 1%;
+	margin-top: 100px;
+}
+
+.tituloSobremesa{
+	text-align: center;
+}
+
+.tituloSobremesa h1{
+	font-size: 40px;
+	position: absolute;
+	top: 15%;
+	left: 29%;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+.botaoSobremesa{
+	margin: 250px auto;
+	width: 25%;
+	padding: 0;
+	border-style: solid;
+    border-width: 1px;
+	border-color: white;
+	font-size: 18px;
+	font-family: 'Crimson Text', serif;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.botaoSobremesa a{
+	padding: 10px 10px;
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+.botaoSobremesa a:hover{
+	background: rgba(0, 0, 0, 0.3);
+}

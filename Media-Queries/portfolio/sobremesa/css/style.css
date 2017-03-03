@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body, html, a{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	width: 100%;
+	margin: 0 auto;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: rgba(255, 255, 255, 1);
+	position: fixed;
+	top: 0;
+	width:100%;
+	z-index: 5;
+}
+
+li{
+	float: right;
+	padding: 26px 28px;
+}
+
+li a{
+	display: block;
+	padding: 10px 12px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 20px;
+}
+
+li a:hover{
+	color: #f24141;
+}
+
+.active {
+    color: #f24141;
+}
