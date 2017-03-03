@@ -46,3 +46,10 @@ li a:hover{
 .active {
     color: #f24141;
 }
+
+.titulo h1{
+	margin-top: 200px;
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}
