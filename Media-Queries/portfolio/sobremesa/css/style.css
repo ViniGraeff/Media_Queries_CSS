@@ -6,6 +6,10 @@ body, html, a{
 	margin: 0;
 	padding: 0;
 }
+body{
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+}
 
 nav{
 	width: 100%;
@@ -17,7 +21,7 @@ ul{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background: rgba(255, 255, 255, 1);
+	background: rgba(0, 0, 0, 0.6);
 	position: fixed;
 	top: 0;
 	width:100%;
@@ -34,7 +38,7 @@ li a{
 	padding: 10px 12px;
 	text-align: center;
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-family: 'Alfa Slab One', cursive;
 	font-size: 20px;
 }
@@ -48,8 +52,62 @@ li a:hover{
 }
 
 .titulo h1{
+	color: white;
 	margin-top: 200px;
 	font-size: 60px;
 	text-align: center;
 	font-family: 'Roboto Slab', serif;
+}
+
+.imagens{
+	width: 90%;
+	height:1000px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.separador{
+	/*position: absolute;*/
+	display: block;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	width: 32%;
+	height: 32%;
+}
+
+.separador img{
+	width: 100%;
+	height: 100%;
+}
+
+.separador2{
+	/*position: absolute;*/
+	display: block;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	width: 787px;
+	height: 32%;
+}
+
+.separador2 img{
+	width: 100%;
+	height: 100%;
+}
+
+.separador3{
+	/*position: absolute;*/
+	display: block;
+	margin-top: 10px;
+	float: right;
+	width: 32%;
+	height: 650px;
+	margin-right: 19px;
+}
+
+.separador3 img{
+	width: 100%;
+	height: 100%;
 }

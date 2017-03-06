@@ -6,6 +6,10 @@ body, html, a{
 	margin: 0;
 	padding: 0;
 }
+body{
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+}
 
 nav{
 	width: 100%;
@@ -17,7 +21,7 @@ ul{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background: rgba(255, 255, 255, 1);
+	background: rgba(0, 0, 0, 0.6);
 	position: fixed;
 	top: 0;
 	width:100%;
@@ -34,7 +38,7 @@ li a{
 	padding: 10px 12px;
 	text-align: center;
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-family: 'Alfa Slab One', cursive;
 	font-size: 20px;
 }
@@ -47,106 +51,64 @@ li a:hover{
     color: #f24141;
 }
 
-.pratoPrincipal{
+.titulo h1{
+	color: white;
+	margin-top: 200px;
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}
+
+.imagens{
+	width: 90%;
+	height:1000px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.separador{
+	/*position: absolute;*/
+	display: block;
+	margin-left: 10px;
+	margin-top: 10px;
 	float: left;
-	background-image: url('../img/prato.jpg');
-	background-size: cover;
-	width: 42%;
-	height: 900px;
-	position: relative;
-	text-align: center;
-	margin-left: 7%;
-	margin-right: 1%;
-	margin-top: 100px;
-	margin-right: 0;
+	width: 32%;
+	height: 32%;
 }
 
-.tituloPrato{
-	text-align: center;
-}
-
-.tituloPrato h1{
-	font-size: 40px;
-	position: absolute;
-	top: 15%;
-	left: 20%;
-	color: white;
-	font-family: 'Roboto Slab', serif;
-}
-
-.botaoPrato{
-	margin: 250px auto;
-	width: 25%;
-	border-style: solid;
-    border-width: 1px;
-	border-color: white;
-	font-size: 18px;
-	font-family: 'Crimson Text', serif;
-	background: rgba(0, 0, 0, 0.3);
-}
-
-.botaoPrato a{
-	padding: 10px 10px;
-	display: block;
-	text-decoration: none;
-	color: white;
-}
-
-.botaoPrato a:hover{
-	background: rgba(0, 0, 0, 0.3);
-}
-
-.sobremesa{
-	float:right;
-	margin-right: 7%;
-	background-image: url('../img/sobremesa.jpg');
-	background-size: cover;
-	width: 42%;
-	height: 900px;
-	position: relative;
-	text-align: center;
-	margin-left: 1%;
-	margin-top: 100px;
-}
-
-.tituloSobremesa{
-	text-align: center;
-}
-
-.tituloSobremesa h1{
-	font-size: 40px;
-	position: absolute;
-	top: 15%;
-	left: 29%;
-	color: white;
-	font-family: 'Roboto Slab', serif;
-}
-
-.botaoSobremesa{
-	margin: 250px auto;
-	width: 25%;
-	border-style: solid;
-    border-width: 1px;
-	border-color: white;
-	font-size: 18px;
-	font-family: 'Crimson Text', serif;
-	background: rgba(0, 0, 0, 0.3);
-}
-
-.botaoSobremesa a{
-	padding: 10px 10px;
-	display: block;
-	text-decoration: none;
-	color: white;
-}
-
-.botaoSobremesa a:hover{
-	background: rgba(0, 0, 0, 0.3);
-}
-
-footer .rodape{
+.separador img{
 	width: 100%;
-	height: 120px;
-	background-color: #222222;
-	margin-top: 1000px;
+	height: 100%;
+}
+
+.separador2{
+	/*position: absolute;*/
+	display: block;
+	margin-top: 10px;
+	margin-left: 9px;
+	margin-right: 19px;
+	float: right;
+	width: 787px;
+	height: 32%;
+}
+
+.separador2 img{
+	width: 100%;
+	height: 100%;
+}
+
+.separador3{
+	/*position: absolute;*/
+	display: block;
+	margin-top: 10px;
+	float: left;
+	width: 32%;
+	height: 650px;
+	margin-left: 10px;
+}
+
+.separador3 img{
+	width: 100%;
+	height: 100%;
 }
