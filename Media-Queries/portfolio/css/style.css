@@ -153,12 +153,13 @@ li a:hover{
 	.tituloPrato h1{
 		font-size: 60px;
 		top: 26%;
-		left: 23%;
+		left: 50%;
+		margin-left: -243.72px;
 	}
 
 	.botaoPrato{
 		margin: 0 auto;
-		margin-top: 42%;
+		margin-top: 40%;
 		width: 25%;
 		padding: 0;
 		border-style: solid;
@@ -181,12 +182,13 @@ li a:hover{
 	.tituloSobremesa h1{
 		font-size: 60px;
 		top: 26%;
-		left: 30%;
+		left: 50%;
+		margin-left: -172.165px;
 	}
 
 	.botaoSobremesa{
 		margin: 0 auto;
-		margin-top: 42%;
+		margin-top: 40%;
 		width: 25%;
 		padding: 0;
 		border-style: solid;
