@@ -61,15 +61,11 @@ li a:hover{
 	margin-right: 0;
 }
 
-.tituloPrato{
-	text-align: center;
-}
-
 .tituloPrato h1{
 	font-size: 40px;
 	position: absolute;
 	top: 15%;
-	left: 20%;
+	left: 21%;
 	color: white;
 	font-family: 'Roboto Slab', serif;
 }
@@ -110,10 +106,6 @@ li a:hover{
 	margin-top: 100px;
 }
 
-.tituloSobremesa{
-	text-align: center;
-}
-
 .tituloSobremesa h1{
 	font-size: 40px;
 	position: absolute;
@@ -144,4 +136,39 @@ li a:hover{
 
 .botaoSobremesa a:hover{
 	background: rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-device-width : 1024px){
+.pratoPrincipal{
+	width: 87%;
+	height: 60vh;
+	margin-left: 6.5%;
+	margin-right: 6.5%;
+}
+
+.sobremesa{
+	margin-right: 6.5%;
+	margin-left: 6.5%;
+	margin-top: 20px;
+	width: 87%;
+	height: 60vh;
+}
+
+.tituloPrato h1{
+	font-size: 60px;
+	position: absolute;
+	top: 15%;
+	left: 21%;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+.tituloSobremesa h1{
+	font-size: 40px;
+	position: absolute;
+	top: 15%;
+	left: 29%;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
 }

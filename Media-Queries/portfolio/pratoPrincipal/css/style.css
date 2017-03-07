@@ -113,10 +113,18 @@ li a:hover{
 	height: 100%;
 }
 
-@media (max-width : 320px) {
-	.separador2 img{
-		margin: 0;
-		width:50%;
-		height: 2000px;
+@media only screen and (max-device-width : 1024px){
+	.separador2{
+		float: left;
+		width: 98.5%;
+	}
+
+	.separador3{
+		float: left;
+		width: 49%;
+	}
+
+	#grande{
+		width: 48.3%;
 	}
 }
