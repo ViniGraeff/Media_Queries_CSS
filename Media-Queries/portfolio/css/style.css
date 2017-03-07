@@ -44,7 +44,7 @@ li a:hover{
 }
 
 .active {
-    color: #f24141;
+	color: #f24141;
 }
 
 .pratoPrincipal{
@@ -52,22 +52,23 @@ li a:hover{
 	background-image: url('../img/prato.jpg');
 	background-size: cover;
 	width: 42%;
-	height: 900px;
+	height: 135vh;
 	position: relative;
-	text-align: center;
 	margin-left: 7%;
 	margin-right: 1%;
 	margin-top: 100px;
 	margin-right: 0;
+	text-align: center;
 }
 
 .tituloPrato h1{
 	font-size: 40px;
 	position: absolute;
 	top: 15%;
-	left: 21%;
 	color: white;
 	font-family: 'Roboto Slab', serif;
+	left: 50%;
+	margin-left: -162.5px;
 }
 
 .botaoPrato{
@@ -75,7 +76,7 @@ li a:hover{
 	width: 25%;
 	padding: 0;
 	border-style: solid;
-    border-width: 1px;
+	border-width: 1px;
 	border-color: white;
 	font-size: 18px;
 	font-family: 'Crimson Text', serif;
@@ -99,7 +100,7 @@ li a:hover{
 	background-image: url('../img/sobremesa.jpg');
 	background-size: cover;
 	width: 42%;
-	height: 900px;
+	height: 135vh;
 	position: relative;
 	text-align: center;
 	margin-left: 1%;
@@ -110,9 +111,10 @@ li a:hover{
 	font-size: 40px;
 	position: absolute;
 	top: 15%;
-	left: 29%;
 	color: white;
 	font-family: 'Roboto Slab', serif;
+	left: 50%;
+	margin-left: -114.7px;
 }
 
 .botaoSobremesa{
@@ -120,7 +122,7 @@ li a:hover{
 	width: 25%;
 	padding: 0;
 	border-style: solid;
-    border-width: 1px;
+	border-width: 1px;
 	border-color: white;
 	font-size: 18px;
 	font-family: 'Crimson Text', serif;
@@ -139,36 +141,79 @@ li a:hover{
 }
 
 @media only screen and (max-device-width : 1024px){
-.pratoPrincipal{
-	width: 87%;
-	height: 60vh;
-	margin-left: 6.5%;
-	margin-right: 6.5%;
+	.pratoPrincipal{
+		width: 87%;
+		height: 60vh;
+		margin-left: 6.5%;
+		margin-right: 6.5%;
+		text-align: center;
+	}
+
+
+	.tituloPrato h1{
+		font-size: 60px;
+		top: 26%;
+		left: 23%;
+	}
+
+	.botaoPrato{
+		margin: 0 auto;
+		margin-top: 42%;
+		width: 25%;
+		padding: 0;
+		border-style: solid;
+		border-width: 1px;
+		border-color: white;
+		font-size: 40px;
+		font-family: 'Crimson Text', serif;
+		background: rgba(0, 0, 0, 0.3);
+	}
+
+	.sobremesa{
+		margin-right: 6.5%;
+		margin-left: 6.5%;
+		margin-top: 20px;
+		margin-bottom: 50px;
+		width: 87%;
+		height: 60vh;
+	}
+
+	.tituloSobremesa h1{
+		font-size: 60px;
+		top: 26%;
+		left: 30%;
+	}
+
+	.botaoSobremesa{
+		margin: 0 auto;
+		margin-top: 42%;
+		width: 25%;
+		padding: 0;
+		border-style: solid;
+		border-width: 1px;
+		border-color: white;
+		font-size: 40px;
+		font-family: 'Crimson Text', serif;
+		background: rgba(0, 0, 0, 0.3);
+	}
+
+	.escurecer{
+		width:100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.4);
+	}
 }
 
-.sobremesa{
-	margin-right: 6.5%;
-	margin-left: 6.5%;
-	margin-top: 20px;
-	width: 87%;
-	height: 60vh;
-}
+@media only screen and (max-device-width : 768px){
 
-.tituloPrato h1{
-	font-size: 60px;
-	position: absolute;
-	top: 15%;
-	left: 21%;
-	color: white;
-	font-family: 'Roboto Slab', serif;
-}
+	.tituloPrato h1{
+		top: 26%;
+		left: 20%;
+	}
 
-.tituloSobremesa h1{
-	font-size: 40px;
-	position: absolute;
-	top: 15%;
-	left: 29%;
-	color: white;
-	font-family: 'Roboto Slab', serif;
-}
+	.tituloSobremesa h1{
+		top: 26%;
+		left: 30%;
+	}
+
 }
